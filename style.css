@@ -67,3 +67,62 @@ button.yesbutton{
     margin-left: 25px;
 }
 
+@media (max-width: 768px) {
+    .icon {
+        margin-top: 20px;
+    }
+
+    .gif {
+        margin: 10px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        width: 60px; 
+        height: 30px; 
+        font-size: 10px;
+    }
+
+    button.yesbutton {
+        margin-left: 20px; 
+    }
+
+    .floating-button {
+        width: 60px;
+        height: 30px;
+        margin-left: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .icon {
+        margin-top: 10px;
+    }
+
+    .gif {
+        margin: 5px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        width: 50px;
+        height: 25px; 
+        font-size: 8px; 
+    }
+
+    button.yesbutton {
+        margin-left: 10px; 
+    }
+
+    .floating-button {
+        width: 50px; 
+        height: 25px;
+        margin-left: 5px;
+    }
+}
